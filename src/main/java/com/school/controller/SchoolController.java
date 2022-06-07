@@ -23,6 +23,12 @@ public class SchoolController {
 		return "<H1> Welcome to School Database Management System!!! </H1>";
 		
 	}
+	@GetMapping("/welcome1")
+	public String welcomeMessage1() {
+
+		return "<H1> Welcome to School Database Management System!!! </H1>";
+
+	}
 	
 	
 	@PostMapping("SchoolAPI/coursematerial")
